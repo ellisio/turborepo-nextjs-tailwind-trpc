@@ -19,6 +19,9 @@
       "outputs": [".next/**", ".expo/**"]
     },
     "lint": {},
+    "@myapp/db#lint": {
+      "dependsOn": ["db:generate"]
+    },
     "lint:fix": {},
     "clean": {
       "cache": false
